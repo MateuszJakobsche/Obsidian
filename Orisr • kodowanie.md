@@ -179,8 +179,7 @@ pthread_mutex_unlock(&mutex);
 9 OpenMPI
 ---
 ```c++
-
-
+//UŻYCIE:
 #define MASTER 0
 #define TAG 'A'+'B'+'C'
 //v
@@ -195,12 +194,10 @@ MPI_Recv(&x, 1, MPI_DOUBLE, 1, TAG, MPI_COMM_WORLD, &status);
 //v
 MPI_Finalize();
 
-//pobranie informacji o procesach do określonych zmiennych:
+//POBIERANIE INFORMACJI o procesach do określonych zmiennych:
 int current,world;
 mpi_Comm_size(MPI_COMM_WORLD,&world);
 mpi_Comm_rank(MPI_COMM_WORLD,&current);
-
-//wywołanie: mpirun -np 100 ./nazwa
 ```
 10 TPL
 ---
