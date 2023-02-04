@@ -1,7 +1,3 @@
----
-quickshare-date: 2023-02-04 15:23:09
-quickshare-url: "https://noteshare.space/note/cldq1p5id1621401pjhvr7wzod#P3ZzEzSjASDT6yMqsp4H+Y4QKTNZ8a9IfQXtmwWpi6I"
----
 producent - konsument
 ---
 Występują w nim dwa rodzaje procesów: producent i konsument, którzy dzielą wspólny zasób - bufor dla produkowanych/konsumowanych jednostek. Zadaniem producenta jest wytworzenie produktu, umieszczenie go w buforze i rozpoczęcie pracy od nowa. W tym samym czasie konsument ma pobrać produkt z bufora. Problemem jest taka synchronizacja procesów, żeby producent nie dodawał nowych jednostek gdy bufor jest pełny, a konsument nie pobierał gdy bufor jest pusty.

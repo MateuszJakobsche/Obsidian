@@ -1,7 +1,3 @@
----
-quickshare-date: 2023-02-04 15:28:30
-quickshare-url: "https://noteshare.space/note/cldq1w1qi1627701pjm3ikk7qm#BXcPReJJBTq1eYPtg6sl3deN346W0XoY02h4LB6c2Ww"
----
 1 proces
 ---
 ```c++
