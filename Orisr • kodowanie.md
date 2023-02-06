@@ -1,3 +1,10 @@
+0 konsola
+---
+```
+gcc - kompilator "Gnu Compiler Collection"
+mpirun -np 100 ./nazwa
+```
+
 1 proces
 ---
 ```c++

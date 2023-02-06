@@ -1,1 +1,0 @@
-mpirun -np 100 ./nazwa
