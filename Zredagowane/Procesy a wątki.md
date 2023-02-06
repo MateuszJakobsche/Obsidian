@@ -5,3 +5,9 @@
 |- ich zakończenie *zwalnia* wykorzystane zasoby|- ich zakończenie *nie* zwalnia wykorzystanych zasobów|
 |- są *mniej* wydajne w komunikacji etc. oraz pamięciowo|- są *bardziej* wydajne w komunikacji etc. oraz pamięciowo|
 |- jak się jeden wysypie to reszta *działa* dalej|- jak się jeden wysypie to wszystkie się *zatrzymają*|
+
+Stany procesu
+--
+Gotowy do wykonania (czeka na dostęp do procesora)
+Wykonywany (ma dostęp do zasobów i procesora)
+Wstrzymany (zrzeka się dostępu do procesora)

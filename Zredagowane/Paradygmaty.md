@@ -6,6 +6,11 @@ Przetwarzanie współbieżne
 - klient-serwer: serwer czeka > klient wysyła > serwer odpowiada
 - interaktywne komunikaty: wymiana informacjami między procesami dla realizacji zadań
 
+Modele współbieżności
+---
+- Scentralizowany - zmienne globalne (wady i zalety), niepodzielność instrukcji wysokopoziomowych, mechanizmy synchronizacyjne
+- Rozproszony - wiele komputerów lub odrębne logicznie jednostki, patrz : [[Komunikacja]]
+
 ---
 
 Programy

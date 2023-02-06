@@ -1,3 +1,9 @@
+wzajemne wykluczenie
+---
+Zsynchronizować procesy, z których każdy w nieskończonej pętli na przemian zajmuje się własnymi zasobami oraz zasobem współdzielonym, w taki sposób, aby podczas tego drugiego, żaden inny proces nie przeprowadzał na takowym operacji
+
+Rozwiązanie powyższego problemu wymaga wprowadzania dodatkowych instrukcji poprzedzających oraz występujących po zakończeniu sekcji krytycznej.
+
 producent - konsument
 ---
 Występują w nim dwa rodzaje procesów: producent i konsument, którzy dzielą wspólny zasób - bufor dla produkowanych/konsumowanych jednostek. Zadaniem producenta jest wytworzenie produktu, umieszczenie go w buforze i rozpoczęcie pracy od nowa. W tym samym czasie konsument ma pobrać produkt z bufora. Problemem jest taka synchronizacja procesów, żeby producent nie dodawał nowych jednostek gdy bufor jest pełny, a konsument nie pobierał gdy bufor jest pusty.
