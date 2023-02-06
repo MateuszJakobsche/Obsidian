@@ -9,7 +9,7 @@ producent - konsument
 Występują w nim dwa rodzaje procesów: producent i konsument, którzy dzielą wspólny zasób - bufor dla produkowanych/konsumowanych jednostek. Zadaniem producenta jest wytworzenie produktu, umieszczenie go w buforze i rozpoczęcie pracy od nowa. W tym samym czasie konsument ma pobrać produkt z bufora. Problemem jest taka synchronizacja procesów, żeby producent nie dodawał nowych jednostek gdy bufor jest pełny, a konsument nie pobierał gdy bufor jest pusty.
 
 Rozwiązanie - korzystając z semaforów możemy:
-Utworzyć dwa: po jednym dla konsumenta i producenta. Producent, kiedy będzie chciał wykonać operację na buforze zgłosi żądanie wyłączności, wykonując wait() na semaforze własnym). Natomiast po zakończeniu tej operacji zwolni (ewentualnie) oczekującego konsumenta wykonując signal() na jego semaforze..
+Utworzyć dwa: po jednym dla konsumenta i producenta. Producent, kiedy będzie chciał wykonać operację na buforze zgłosi żądanie wyłączności, wykonując wait() na semaforze własnym). Natomiast po zakończeniu tej operacji zwolni (ewentualnie) oczekującego konsumenta wykonując signal() na jego semaforze.
 
 pisarze - czytelnicy
 ---
